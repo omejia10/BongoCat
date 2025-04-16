@@ -1,0 +1,64 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:BongoCat.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		x:CompileBindings="True"
+		x:DataType="vm:MainWindowViewModel"
+        x:Class="BongoCat.Views.MainWindow"
+        Title="BongoCat"
+		TransparencyBackgroundFallback="Transparent"
+		ExtendClientAreaChromeHints="NoChrome"
+		ExtendClientAreaToDecorationsHint="True"
+		ExtendClientAreaTitleBarHeightHint="-1"
+		Background="Transparent"
+		Icon="avares://BongoCat/Assets/cat.ico"
+		Width="498"
+		Height="307"
+		xmlns:avalonia_controls_shapes="using:Avalonia.Controls.Shapes"
+		xmlns:avalonia_controls_presenters="using:Avalonia.Controls.Presenters">
+		<!--ExtendClientAreaChromeHints="NoChrome"-->
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+	<Window.Background>
+		<ImageBrush Source="{Binding BongoCatImage}"/>
+	</Window.Background>
+
+	<Canvas>
+		<TextBlock Text="{Binding CrazyCounter}"
+				   FontWeight="Bold"
+				   FontSize="40"
+				   TextDecorations="Underline"
+				   Canvas.Top="245"
+				   Canvas.Left="50"
+				   Classes="here"
+				   Width="210"
+				   HorizontalAlignment="Stretch">
+			<TextBlock.Styles>
+				<Style Selector="TextBlock.here">
+					<Setter Property="Background">
+						<SolidColorBrush Color="#6EFFB6B7"/>
+					</Setter>
+				</Style>
+			</TextBlock.Styles>
+		</TextBlock>
+		<Button Content="Close" Command="{Binding closeCommand}"
+				Canvas.Left="430" Canvas.Top="5" Classes="btn">
+			<Button.Styles>
+				<Style Selector="Button.btn">
+					<Setter Property="Background">
+						<SolidColorBrush Color="#FFFF6A6D"/>
+					</Setter>
+				</Style>
+			</Button.Styles>
+		</Button>
+		
+	</Canvas>
+	
+
+</Window>
