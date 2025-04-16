@@ -1,2 +1,0 @@
-C:\Users\omarm\vsProjects\source\repos\BongoCat\BongoCat\bin\Release\net8.0\publish\win-x64\BongoCat.pdb
-C:\Users\omarm\vsProjects\source\repos\BongoCat\BongoCat\bin\Release\net8.0\publish\win-x64\BongoCat.exe
