@@ -7,5 +7,5 @@
 
 
 ---
--[Avalonia](https://avaloniaui.net/) .NET 8 Application 
--External library used [SharpHok](https://github.com/TolikPylypchuk/SharpHook)
+- [Avalonia](https://avaloniaui.net/) .NET 8 Application 
+- External library used [SharpHok](https://github.com/TolikPylypchuk/SharpHook)
