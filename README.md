@@ -1,8 +1,6 @@
 <h1 align="center"> Bongo Cat </h1>
 
-![GitHub Release](https://img.shields.io/github/v/release/omejia10/BongoCat?label=BongoCat&link=https%3A%2F%2Fgithub.com%2Fomejia10%2FBongoCat%2Freleases%2Fdownload%2Fv1.0.0%2FBongoCat.exe)
-
-<--- click to download
+![GitHub Release](https://img.shields.io/github/v/release/omejia10/BongoCat?label=BongoCat&link=https%3A%2F%2Fgithub.com%2Fomejia10%2FBongoCat%2Freleases%2Fdownload%2Fv1.0.0%2FBongoCat.exe)<--- click to download
 <p align="Justified">
   Have fun by having your trusty Bongo Cat druming on your desktop!
 </p>
